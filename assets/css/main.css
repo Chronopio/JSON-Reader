@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #F2F2F2;
+}
+
+.category-nav {
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar li {
+  text-decoration: none;
+  color: #5389AA;
+  cursor: pointer;
+}
+
+li.active {
+  background-color: #fff;
+  padding: 0 0.25rem;
+  border-radius: 10px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightblue {
+  background-color: #D5E1FA;
+}
+
+.blue {
+  background-color: #AEC5F5;
+}
+
+.darkblue {
+  background-color: #6F8AC3;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 575px) {
+  .navbar {
+    flex-direction: column !important;
+  }
+  .navbar li {
+    margin: 0.2rem auto !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
