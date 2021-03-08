@@ -8,22 +8,23 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
 
     <title>JSON Reader</title>
   </head>
   <body>
-    <div class="container-fluid">
-        <header class="p-3">
-            <div class="row">
-                <div class="col-md-6"><img src="./assets/img/logo.jpg" alt="Logo" class="mb-2"></div>
-                <div class="col-md-6 d-flex flex-column align-items-start">
-                    <h3 class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam enim optio est unde dolorum necessitatibus et nihil animi nesciunt dicta?</p>
-                </div>
+    <header class="p-3">
+        <div class="row wow fadeIn">
+            <div class="col-md-6 track-img"><img src="./assets/img/logo.jpg" alt="Logo" class="mb-2"></div>
+            <div class="col-md-6 d-flex flex-column align-items-start pt-3">
+                <h3 class="w-90 text-light text-center mx-auto">CUTE ROADMAP CANVAS ELEMENTS</h3>
+                <p class="text-light text-center w-90 mx-auto">CUTE is a modular roadmap that may only consider one module initially and expand to meet the needs of the particular institution. The basis of each module is the task / action (defined clearly and unambiguosly). The modules will be organized in a timeline and related to each other by the SIGICOMPEDU area(s).</p>
             </div>
-        </header>
+        </div>
+    </header>
+    <div class="container-fluid">
         <main>
-            <div class="row d-flex flex-column justify-content-center align-items-center mt-3">
+            <div class="row d-flex flex-column justify-content-center align-items-center mt-3 wow fadeInUp">
                 <nav class="w-50 category-nav mx-auto my-3">
                     <ul class="navbar d-flex flex-row pb-0 ps-2">
                         <li class="ms-1 me-3 active">All</li>
@@ -38,9 +39,11 @@
             </div>
             <div class="row card-wrapper g-2 mt-3 mb-5 px-1">
             </div>
+            <div class="modal-wrapper"></div>
         </main>
     </div>
 
+    <script src="./assets/js/wow.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,15 +6,31 @@
 }
 
 header {
-  background-color: #F2F2F2;
+  background: url(/assets/img/landing-cute-roadmap.png) top center no-repeat, radial-gradient(ellipse at center, #7ed9c8 0%, rgba(41, 205, 200, 0.8) 0%, #0C526C 100%, #7ed9c8 100%, #182848 100%, #6e48aa 100%, #6e48aa 100%);
+  min-height: 50vh;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  }
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-90 {
+  width: 90%;
 }
 
 .category-nav {
-  background-color: #354463;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
 }
 
 .navbar {
@@ -23,14 +39,30 @@ header {
 
 .navbar li {
   text-decoration: none;
-  color: #5389AA;
+  color: #C5C8CB;
   cursor: pointer;
 }
 
 li.active {
-  background-color: #fff;
+  color: #5f6468;
   padding: 0 0.25rem;
-  border-radius: 10px;
+  border-bottom: 1px solid #A5ABAF;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.bigger-size {
+  font-size: 1.25rem;
+}
+
+.giant-size {
+  font-size: 4rem;
 }
 
 .flex-center {
@@ -41,15 +73,15 @@ li.active {
 }
 
 .lightblue {
-  background-color: #D5E1FA;
+  background: linear-gradient(60deg, #7ed9c8, #2bd3ce);
 }
 
 .blue {
-  background-color: #AEC5F5;
+  background: linear-gradient(60deg, #25aca7, #7ed9c8);
 }
 
 .darkblue {
-  background-color: #6F8AC3;
+  background: linear-gradient(60deg, #107792, #0f404d);
 }
 
 .border {
@@ -60,9 +92,13 @@ li.active {
   width: 90%;
 }
 
-p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+p, strong {
+  font-family: 'Helvetica Neue','Open Sans',sans-serif;
+  font-size: 1.1rem;
+}
+
+.section-bg {
+  background-color: #F2F2F2;
 }
 
 @media screen and (max-width: 575px) {
