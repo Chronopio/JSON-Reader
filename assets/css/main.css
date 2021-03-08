@@ -6,7 +6,7 @@
 }
 
 header {
-  background: url(/assets/img/landing-cute-roadmap.png) top center no-repeat, radial-gradient(ellipse at center, #7ed9c8 0%, rgba(41, 205, 200, 0.8) 0%, #0C526C 100%, #7ed9c8 100%, #182848 100%, #6e48aa 100%, #6e48aa 100%);
+  background: url(./assets/img/landing-cute-roadmap.png) top center no-repeat, radial-gradient(ellipse at center, #7ed9c8 0%, rgba(41, 205, 200, 0.8) 0%, #0C526C 100%, #7ed9c8 100%, #182848 100%, #6e48aa 100%, #6e48aa 100%);
   min-height: 50vh;
   background-size: contain;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
